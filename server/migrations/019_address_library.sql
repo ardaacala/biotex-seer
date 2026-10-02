@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS address_library (
+  id SERIAL PRIMARY KEY,
+  address TEXT NOT NULL UNIQUE,
+  label TEXT,
+  use_count INTEGER NOT NULL DEFAULT 1,
+  created_at TIMESTAMP DEFAULT NOW(),
+  last_used_at TIMESTAMP DEFAULT NOW()
+);

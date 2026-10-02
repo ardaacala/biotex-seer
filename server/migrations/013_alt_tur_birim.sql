@@ -1,0 +1,1 @@
+ALTER TABLE stok_alt_turler ADD COLUMN IF NOT EXISTS birim TEXT DEFAULT 'adet';

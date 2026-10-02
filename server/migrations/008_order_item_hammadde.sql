@@ -1,0 +1,2 @@
+ALTER TABLE order_items ADD COLUMN IF NOT EXISTS stok_item_id INTEGER;
+ALTER TABLE order_items ADD COLUMN IF NOT EXISTS hammadde_kullanim NUMERIC(10,3);

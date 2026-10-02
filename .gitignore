@@ -1,0 +1,17 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+.env
+.env.*
+!.env.example
+.local/
+.agents/
+.archive/
+.canvas/
+attached_assets/*
+!attached_assets/white-logo_1772614993528.png
+!attached_assets/75475f5a-f277-41e3-bbc5-78383ad7966b_1774868523429.jpg
+*.log

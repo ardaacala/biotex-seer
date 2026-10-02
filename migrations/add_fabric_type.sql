@@ -1,0 +1,2 @@
+ALTER TABLE order_items ADD COLUMN IF NOT EXISTS fabric_type TEXT;
+ALTER TABLE item_library ADD COLUMN IF NOT EXISTS fabric_type TEXT;

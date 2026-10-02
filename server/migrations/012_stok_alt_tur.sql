@@ -1,0 +1,1 @@
+ALTER TABLE stok_items ADD COLUMN IF NOT EXISTS alt_tur TEXT;
